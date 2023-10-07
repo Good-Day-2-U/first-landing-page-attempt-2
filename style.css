@@ -3,11 +3,26 @@ body {
   /* overflow: hidden; */
 }
 
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.awesome-button {
+
+}
+
+.hero-image {
+  width: 400px;
+  height: 250px;
+  border: 1px solid black;
+}
+
 .main {
   height: 100vh;
   width: 100vw;
   border: 1px solid black;
-  margin: 5rem;
+  margin: 0;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -27,7 +42,7 @@ body {
   color: #e5e7eb;
 }
 
-#header-logo-text {
+.header-logo-text {
   font-size: 24px;
   color: #f9faf8;
 }
@@ -36,31 +51,47 @@ body {
 
 .mb {
   width: 100vw;
-  border: 5px solid blue;
+  border: 1px solid blue;
 }
 
 .Hero-top {
-  height: 5%;
+  flex: .05;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+
+}
+
+.h-and-links {
+  display: flex;
+  align-items: center;
+  width: 65vw;
+  justify-content: space-between;
+}
+
+.three-links {
+  display: flex;
+  gap: 3rem;
 }
 
 .Hero-content {
-  height: 25%;
+  flex: .25;
+  background-color: #1F2937;
 }
 
 .rand-info {
-  height: 25%;
-  
+  flex: .25;
 }
 
 .quote-body {
-  height: 25%;
-  
+  flex: .25;  
 }
 
 .cta-body {
-  height: 15%;
+  flex: .25;
 }
 
 .footer-body {
-  height: 5%;
+  flex: .05;
 }
