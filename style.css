@@ -23,7 +23,7 @@ a {
 } */
 
 .hero-image {
-  width: 400px;
+  width: 700px;
   height: 250px;
   border: 1px solid black;
   flex-shrink: 0;
@@ -79,7 +79,7 @@ a {
 .h-and-links {
   display: flex;
   align-items: center;
-  width: 800px;
+  width: 1200px;
   justify-content: space-between;
 }
 
@@ -104,7 +104,7 @@ a {
 .hero-content-2 {
   display: flex;
   justify-content: space-between;
-  width: 800px;
+  width: 1200px;
   height: 250px;
 
   align-items: center;
