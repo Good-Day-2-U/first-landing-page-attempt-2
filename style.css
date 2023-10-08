@@ -195,30 +195,48 @@ a {
 
 .cta-body {
   flex: .25;
+  display: flex;
+  justify-content: center;
 }
 
 .cta-box {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  background-color: #3882F6;
+  font-size: 24px;
+  color: #e5e7eb;
+  padding: 3rem;
+  border-radius: 10px;
 }
 
 .cta-left {
-
+  margin-left: 5rem;
 }
 
 .cta-right {
-
+  margin-right: 5rem;
 }
 
 .cta-top {
-
+  margin: 0;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .cta-bottom {
-
+  margin: 0;
 }
 
 .cta-button {
-  
+  font-size: 20px;
+  color: #e5e7eb;
+  background-color: #3882F6;
+  padding: 0.5rem;
+  width: 10rem;
+  border: 5px solid #f9faf8;
+  border-radius: 10px;
 }
 
 .footer-body {
