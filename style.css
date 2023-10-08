@@ -197,6 +197,8 @@ a {
   flex: .25;
   display: flex;
   justify-content: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .cta-box {
@@ -241,4 +243,11 @@ a {
 
 .footer-body {
   flex: .05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 3rem;
+  color: #e5e7eb;
+  font-size: 24px;
 }
